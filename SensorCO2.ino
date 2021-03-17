@@ -14,11 +14,11 @@
 void callback(char* topic, byte* payload, unsigned int length);
 
 //Wifi Settings
-const char* ssid = "Rede Ferreira";
-const char* password =  "jm201203";
+const char* ssid = "WIFI_NAME";
+const char* password =  "WIFI_PASSWORD";
 
 //MQTT Settings
-const char* mqttServer = "192.168.1.159";
+const char* mqttServer = "MQTT IP";
 const int mqttPort = 1883;
 const char* mqttUser = "MyUser";
 const char* mqttPassword = "MyPasswd";
